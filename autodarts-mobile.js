@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts Mobile
 // @namespace    https://iforwms.com
-// @version      0.2.1
+// @version      0.2.2
 // @description  Fix Autodarts board manager styling for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
@@ -15,7 +15,7 @@
   "use strict";
   if (
     window.document.title !== "Autodarts Board" ||
-    window.document.body.clientWidth > 780
+    window.document.body.clientWidth > 800
   ) {
     return;
   }
