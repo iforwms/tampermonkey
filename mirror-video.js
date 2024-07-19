@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Mirror Video
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Mirror all video elements on a page.
 // @author       iforwms
 // @match        http*://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/iforwms/tampermonkey/main/mirror-video.js
+// @updateURL    https://raw.githubusercontent.com/iforwms/tampermonkey/main/mirror-video.js
 // ==/UserScript==
 
 (function () {
