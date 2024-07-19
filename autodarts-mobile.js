@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts Mobile
 // @namespace    https://iforwms.com
-// @version      0.2.6
+// @version      0.2.7
 // @description  Fix Autodarts board manager styling for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
