@@ -7,6 +7,8 @@
 // @match        https://tabs.ultimate-guitar.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ultimate-guitar.com
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/iforwms/tampermonkey/main/remove-ug-ads.js
+// @updateURL    https://raw.githubusercontent.com/iforwms/tampermonkey/main/remove-ug-ads.js
 // ==/UserScript==
 
 (function () {
