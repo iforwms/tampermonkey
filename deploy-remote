@@ -9,7 +9,7 @@ script_name=tampermonkey
 server=me
 
 echo -e "${GREEN}[${script_name}] Copying files to remote...${NC}"
-rsync --verbose --compress --no-times ./*.js "${remote_dir}/tampermonkey"
+rsync --verbose --compress --no-times ./*.js "${remote_dir}/tampermonkey/"
 
 echo -e "${GREEN}[${script_name}] All done!${NC}"
 exit 0
