@@ -13,7 +13,10 @@
 
 (function () {
   "use strict";
-  if (window.document.title !== "Autodarts Board") {
+  if (
+    window.document.title !== "Autodarts Board" ||
+    window.document.body.clientWidth > 800
+  ) {
     return;
   }
 
