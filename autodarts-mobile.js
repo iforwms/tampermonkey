@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts Mobile
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.2
 // @description  Fix Autodarts board manager for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
