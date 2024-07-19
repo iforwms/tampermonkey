@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts Mobile
 // @namespace    https://iforwms.com
-// @version      0.2.2
+// @version      0.2.3
 // @description  Fix Autodarts board manager styling for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
@@ -66,8 +66,11 @@
 
     const statsDiv = mainDiv.firstChild.firstChild.childNodes[1];
     statsDiv.style.display = "grid";
+    statsDiv.style.textAlign = "center";
     statsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
     statsDiv.childNodes[0].style.display = "none";
+    statsDiv.childNodes[1].style.justifyContent = "center";
+    statsDiv.childNodes[2].style.justifyContent = "center";
     statsDiv.childNodes[3].style.display = "none";
     statsDiv.childNodes[2].style.gridColumn = "span 2 / span 2";
     statsDiv.childNodes[4].style.gridColumn = "span 3 / span 3";
