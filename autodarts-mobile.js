@@ -2,7 +2,7 @@
 // @name         Autodarts Mobile
 // @namespace    https://iforwms.com
 // @version      0.2.1
-// @description  Fix Autodarts board manager for mobile.
+// @description  Fix Autodarts board manager styling for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
