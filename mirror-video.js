@@ -7,8 +7,8 @@
 // @match        http*://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/iforwms/tampermonkey/main/mirror-video.js
-// @updateURL    https://raw.githubusercontent.com/iforwms/tampermonkey/main/mirror-video.js
+// @downloadURL  https://dl.iforwms.com/tampermonkey/mirror-video.js
+// @updateURL    https://dl.iforwms.com/tampermonkey/mirror-video.js
 // ==/UserScript==
 
 (function () {

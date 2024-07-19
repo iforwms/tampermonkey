@@ -7,8 +7,8 @@
 // @match        http://192.168.1.2:3180/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/iforwms/tampermonkey/main/autodarts-mobile.js
-// @updateURL    https://raw.githubusercontent.com/iforwms/tampermonkey/main/autodarts-mobile.js
+// @downloadURL  https://dl.iforwms.com/tampermonkey/autodarts-mobile.js
+// @updateURL    https://dl.iforwms.com/tampermonkey/autodarts-mobile.js
 // ==/UserScript==
 
 (function () {
