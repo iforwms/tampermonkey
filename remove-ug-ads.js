@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove UG Ads
-// @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @namespace    https://iforwms.com
+// @version      0.1.2
 // @description  Hide annoying UG ads
 // @author       iforwms
 // @match        https://tabs.ultimate-guitar.com/*

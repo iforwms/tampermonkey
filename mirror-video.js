@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Mirror Video
-// @namespace    http://tampermonkey.net/
-// @version      0.2.2
+// @namespace    https://iforwms.com
+// @version      0.2.3
 // @description  Mirror all video elements on a page.
 // @author       iforwms
 // @match        http*://*/*
