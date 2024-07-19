@@ -15,7 +15,7 @@
   "use strict";
   if (
     window.document.title !== "Autodarts Board" ||
-    window.document.body.clientWidth > 800
+    window.document.body.clientWidth > 780
   ) {
     return;
   }
