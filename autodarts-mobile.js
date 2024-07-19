@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts Mobile
 // @namespace    https://iforwms.com
-// @version      0.2.4
+// @version      0.2.5
 // @description  Fix Autodarts board manager styling for mobile.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
@@ -78,6 +78,7 @@
     const statusDiv = statsDiv.childNodes[4];
     statusDiv.firstChild.style.display = "grid";
     statusDiv.firstChild.style.gridTemplateColumns = "repeat(4, 1fr)";
+    statusDiv.firstChild.style.width = "100%";
     statusDiv.firstChild.firstChild.style.gridColumn = "span 4 / span 4";
     statusDiv.firstChild.childNodes[5].style.gridColumn = "span 2 / span 2";
   });
