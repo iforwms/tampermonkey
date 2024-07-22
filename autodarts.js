@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autodarts
 // @namespace    https://iforwms.com
-// @version      0.2.7
+// @version      0.2.8
 // @description  Fix Autodarts board manager styling for mobile, plus fixes.
 // @author       iforwms
 // @match        http://192.168.1.2:3180/*
@@ -15,11 +15,18 @@
 (function () {
   "use strict";
 
-  for (const btn of document.querySelectorAll("button")) {
-    if (btn.textContent.includes("Abort")) {
-      console.log(btn);
+  waitForEl(".chakra-button").then(() => {
+    for (const btn of document.querySelectorAll("button")) {
+      if (btn.textContent.includes("Abort")) {
+        console.log(btn);
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          const confirm = window.confirm('Are you sure you want to abort?');
+          if(!confirm) return;
+        });
+      }
     }
-  }
+  });
 
   function waitForEl(selector) {
     return new Promise((resolve) => {
