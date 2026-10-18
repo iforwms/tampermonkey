@@ -9,8 +9,8 @@ server=me
 script_name=tampermonkey
 remote_dir="/var/www/${script_name}"
 
-echo -e "${GREEN}[${script_name}] Running git pull...${NC}"
-ssh "$server" "GIT_SSH_COMMAND='ssh -i /home/ifor/.ssh/id_rsa_deploy -o StrictHostKeyChecking=no' git -C ${remote_dir} pull"
+# echo -e "${GREEN}[${script_name}] Running git pull...${NC}"
+# ssh "$server" "GIT_SSH_COMMAND='ssh -i /home/ifor/.ssh/id_rsa_deploy -o StrictHostKeyChecking=no' git -C ${remote_dir} pull"
 
 # echo -e "${GREEN}[${script_name}] Running composer install...${NC}"
 # ssh "$server" "composer --working-dir ${remote_dir} install --no-interaction --optimize-autoloader --classmap-authoritative --no-dev --prefer-dist"
